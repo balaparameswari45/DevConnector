@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import './App.css';
 import Footer from './components/layout/Footer';
 import Navbar from "./components/layout/Navbar";
@@ -37,7 +37,7 @@ if(decoded.exp < currentTime){
 }
 
 
-class App extends component {
+class App extends Component {
 	render() {
 	return(
 		<Provider store= { store }>
